@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+       <!-- External JS -->
+    <script src="app.js"></script>
+    <title>Topic  1 - Problem 1</title>
+    <!-- JS in Head -->
+    <script>
+        function checkConstant(){
+            const pi = 3.14;
+            alert("I am a Constant")
+
+        }
+        
+    </script>
+</head>
+<body>
+    <button onclick="printVariable();">Click me</button>
+    <button onclick="checkConstant();">Click me to check if I am a Constant or a variable</button>
+    <input type="text" placeholder="Enter your name">
+    <button onclick="submit()";> Submit</button>
+        <!-- JS in Body -->
+    <script>
+        let inputElement  = document.querySelector("input");
+       
+        function submit() {
+            document.writeln("Hello "  + inputElement.value)
+        }
+        
+    </script>
+</body>
+</html>
